@@ -1,0 +1,179 @@
+.video-js
+{
+    top: 31px;
+}
+
+#layout
+{
+    padding-bottom: 31px !important;
+}
+
+#playlist.playlist-fullscreen {
+	top: 0 !important;
+}
+
+#playlist
+{
+    top: -31px;
+    height: 32px;
+    width: 100%;
+    position: relative;
+    background: url("video-js.png") 0 0 repeat-x;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.playlist-header {
+    height: 31px;
+    border-left: 1px solid #253e76;
+    border-right: 1px solid #253e76;
+}
+
+.playlist-buttons {
+    height: 25px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+.playlist-current-label, .playlist-previous, .playlist-next {
+    cursor: pointer;
+}
+
+.playlist-previous {
+    width: 30px;
+    height: 25px;
+    float: right;
+    background: url("video-js.png") 0 -32px;
+}
+
+.playlist-previous:hover {
+    background: url("video-js.png") 0 -57px;
+}
+
+.playlist-previous-inactive {
+    width: 30px;
+    height: 25px;
+    float: right;
+    background: url("video-js.png") -180px -32px;
+}
+
+.playlist-next {
+    width: 30px;
+    height: 25px;
+    float: right;
+    background: url("video-js.png") -99px -32px;
+}
+
+.playlist-next:hover {
+    background: url("video-js.png") -99px -57px;
+}
+
+.playlist-next-inactive {
+    width: 30px;
+    height: 25px;
+    float: right;
+    background: url("video-js.png") -180px -57px;
+}
+
+
+.playlist-current {
+    width: 69px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-family: Helvetica, Arial, Verdana;
+    text-shadow: 1px 1px 3px black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+    float: right;
+    background: url("video-js.png") -30px -32px;
+}
+/*
+.playlist-current:hover {
+    background: url("video-js.png") -30px -57px;
+}
+
+
+.playlist-current:hover .playlist-popup {
+    display: block !important;
+} 
+
+.playlist-current:hover .playlist-current-label {
+    display: none;
+}  */
+
+
+.playlist-divider-left {
+    margin-left: 2px;
+}
+
+.playlist-divider-right {
+    margin-right: 2px;
+}
+
+.playlist-divider-left, .playlist-divider-right {
+    float: right;
+    width: 3px;
+    height: 20px;
+    background: url("video-js.png");
+}
+
+.playlist-video-title {
+    float: left;
+    font-family: Helvetica, Arial, Verdana;
+    text-shadow: 1px 1px 3px black;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.playlist-item {
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-shadow: none;
+    text-align: left;
+    padding-left: 11px;
+    padding-right: 11px;
+    cursor: pointer;
+}
+
+.playlist-item:hover {
+    background: #c9ddef;
+}
+
+.playlist-item.active {
+    cursor: default;
+    background: #79a9d8;
+}
+
+.playlist-popup {
+    position: absolute;
+    top: 28px;
+    right: 36px;
+    background: url("video-js.png") -322px -32px no-repeat;
+}
+
+.playlist-popup-body {
+    position: relative;
+    padding: 7px 2px 7px 2px;
+    margin-top: 14px;
+    background: #FFFFFF;
+    -moz-box-shadow: 5px 5px 5px rgba(37,62,118,0.75);
+    -webkit-box-shadow: 5px 5px 5px rgba(37,62,118,0.75);
+    box-shadow: 5px 5px 5px rgba(37,62,118,0.75);
+    border: 1px solid #253e76;
+}
+
+.clear
+{
+    clear: both;
+}
+
